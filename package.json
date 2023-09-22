@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "async": "node scripts/async-wirte-file.js 30000",
+    "async-5": "node scripts/async-write-file-5.js 30000",
+    "sync": "node scripts/sync-write-file.js 140000",
+    "worker-3-sync": "node scripts/worker-3-sync-write-file.js 30000",
+    "check-integrality": "node integrality-check.js 30000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "archiver": "^6.0.1",
+    "axios": "^1.5.0"
+  }
+}
